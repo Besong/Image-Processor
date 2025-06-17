@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Processor</title>
+    <link rel="stylesheet" href="processor.css">
+</head>
+<body>
+    <div class="container"> 
+
+        <div class="image-box">
+            <img id="image" src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d" alt="Sample Image" />
+        </div>
+
+        <div class="controls">
+            <button onclick="scaleImage()">Scale</button>
+            <button onclick="blurImage()">Blur</button>
+            <button onclick="rotateImage()">Rotate</button>
+            <button onclick="grayscaleImage()">Grayscale</button>
+            <button onclick="resetImage()">Reset</button>
+        </div>
+    </div>
+
+    <script src="processor.js"></script>
+</body>
+</html>
